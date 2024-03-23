@@ -1,0 +1,19 @@
+{
+  "name": "@umer_ali7/cli-number-guessing",
+  "version": "2.0.1",
+  "description": "This is a simple command line Number Guessing Game.",
+  "main": "cli-guessing-game.js",
+  "type": "module",
+  "bin": "cli-guessing-game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umer ali",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
