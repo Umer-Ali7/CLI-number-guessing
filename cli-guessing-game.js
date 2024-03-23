@@ -15,6 +15,9 @@ const answer = await inquirer.prompt([
 if (answer.userGuessedNumber === randomNumber) {
     console.log("Contratulation! you guessed a right number");
 }
+else if (answer.userGuessedNumber > 10) {
+    console.log("Number is inviled give me number between 1-10:");
+}
 else {
     console.log("You guess wrong number");
 }
