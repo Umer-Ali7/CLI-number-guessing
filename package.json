@@ -1,6 +1,6 @@
 {
   "name": "@umer_ali7/cli-number-guessing",
-  "version": "2.0.1",
+  "version": "2.1.2",
   "description": "This is a simple command line Number Guessing Game.",
   "main": "cli-guessing-game.js",
   "type": "module",
